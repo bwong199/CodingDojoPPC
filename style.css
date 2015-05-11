@@ -48,7 +48,7 @@ hr{
 #titleheader h2{
 	display:inline;
 	padding-top: 5px;
-	padding-left: 200px;
+	padding-left: 160px;
 
 
 }
@@ -57,17 +57,19 @@ hr{
 	height: 100px;
 	background-color: white;
 	display:block;
-
+background: linear-gradient(#E3E1E7
+, white);
 }
 
 
 #header {
 	color:white;
-	background-color: white;
+
 	margin: 0, auto;
 	height:25px;
 	font-size: 2.5em;
 	padding-left:250px;
+	
 
 }
 
@@ -77,6 +79,7 @@ hr{
 	padding-left: 10px;
 	display:inline;
 	color:white;
+
 
 
 }
@@ -126,7 +129,7 @@ hr{
 
 #topbarlist{
 	list-style-type: none; 
-	background-color:lightgray;
+	background-color:#E6F2FF;
 	height: 30px;
 	padding-top:15px;
 	font-size:0.7em;
@@ -151,7 +154,7 @@ p{
 }
 
 #topbar2{
-	background-color: white;
+	background-color: #A6BACF;
 	height:30px;
 }
 
@@ -172,8 +175,9 @@ p{
 }
 
 #body{	
-	width:520px;
-	background-color: gray;
+	width:540px;
+	background: linear-gradient(to right, gray
+, black);
 	border-radius: 0px;
 	height:250px;
 	margin-top: 20px;
@@ -232,28 +236,183 @@ hr{
 }
 
 #box1 {
-	width:250px;
-	background-color: white;
+	width:200px;
+	background: linear-gradient(white, #FFF5CC);
 	border-radius: 0px;
 	height:300px;
 	margin-top: 15px;
 
-	display:block;
+	display:inline-block;
 	vertical-align: top;
-	font-size: 0.9em;
-	margin-left: 25px;
+	font-size: 0.8em;
+	margin-left: 30px;
+
 }
 
 #box1 h3{
 	font-color: black;
 	background-color: #FFCC00;
-	width:250px;
+	width:200px;
 	vertical-align: top;
-	padding-top:3px;
+	padding-top:5px;
 	text-indent:10px;
-	height:25px;
-
+	height:20px;
+	display:inline-block;
 }
+
+#box1 p{
+	padding-top:5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+	display:inline-block;
+}
+
+#box1 h4{
+	margin-top: 20px;
+	margin-left: 80px;
+	background-color: #FFB547;
+	padding-top: 5px;
+	padding-left: 5px;
+	height:25px;
+	width:100px;
+	border-style: solid;
+	border-color: black;
+}
+
+#box2 {
+	width:200px;
+	background: linear-gradient(white, #FFF5CC);
+	border-radius: 0px;
+	height:300px;
+	margin-top: 15px;
+
+	display:inline-block;
+	vertical-align: top;
+	font-size: 0.8em;
+	margin-left: 30px;
+}
+
+#box2 h3{
+	font-color: black;
+	background-color: #FFCC00;
+	width:200px;
+	vertical-align: top;
+	padding-top:5px;
+	text-indent:10px;
+	height:20px;
+	display:inline-block;
+}
+
+#box2 p{
+	padding-top:5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+	display:inline-block;
+}
+
+#box2 h4{
+	margin-top: 33px;
+	margin-left: 80px;
+	background-color: #FFB547;
+	padding-top: 5px;
+	padding-left: 5px;
+	height:25px;
+	width:100px;
+	border-style: solid;
+	border-color: black;
+}
+
+#box3 {
+	width:200px;
+	background: linear-gradient(white, #FFF5CC);
+	border-radius: 0px;
+	height:300px;
+	margin-top: 15px;
+
+	display:inline-block;
+	vertical-align: top;
+	font-size: 0.8em;
+	margin-left: 30px;
+}
+
+#box3 h3{
+	font-color: black;
+	background-color: #FFCC00;
+	width:200px;
+	vertical-align: top;
+	padding-top:5px;
+	text-indent:10px;
+	height:20px;
+	display:inline-block;
+}
+
+#box3 p{
+	padding-top:5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+	display:inline-block;
+}
+
+#box3 h4{
+	margin-top: 20px;
+	margin-left: 80px;
+	background-color: #FFB547;
+	padding-top: 5px;
+	padding-left: 5px;
+	height:25px;
+	width:100px;
+	border-style: solid;
+	border-color: black;
+}
+
+#box4 {
+	width:200px;
+	background: linear-gradient(white, #FFF5CC);
+	border-radius: 0px;
+	height:300px;
+	margin-top: 15px;
+
+	display:inline-block;
+	vertical-align: top;
+	font-size: 0.8em;
+	margin-left: 30px;
+}
+
+#box4 h3{
+	font-color: black;
+	background-color: #FFCC00;
+	width:200px;
+	vertical-align: top;
+	padding-top:5px;
+	text-indent:10px;
+	height:20px;
+	display:inline-block;
+}
+
+#box4 p{
+	padding-top:5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+	display:inline-block;
+}
+
+#box4 h4{
+	margin-top: 20px;
+	margin-left: 80px;
+	background-color: #FFB547;
+	padding-top: 5px;
+	padding-left: 5px;
+	height:25px;
+	width:100px;
+	border-style: solid;
+	border-color: black;
+}
+
+
 
 
 
